@@ -9,7 +9,7 @@
 ### Featured extensions
 
 <a href="https://github.com/FGcodework/com_fgextensionmanager"><img src="assets/card-extension-manager.svg" alt="FG Extension Manager" width="32%"></a>
-<a href="https://github.com/FGcodework/com_fgsystemreport"><img src="assets/card-system-report.svg" alt="FG System Report" width="32%"></a>
+<a href="https://github.com/FGcodework/fgsystemreport"><img src="assets/card-system-report.svg" alt="FG System Report" width="32%"></a>
 <a href="https://github.com/FGcodework/plg_system_fgfaviconmanager"><img src="assets/card-favicon-manager.svg" alt="FG Favicon Manager" width="32%"></a>
 
 <br>
