@@ -17,3 +17,5 @@
 <p align="center"><a href="https://fgcodework.github.io"><img src="assets/contact-web.svg" alt="Showcase: fgcodework.github.io" width="33.3%"></a><a href="https://github.com/FGcodework"><img src="assets/contact-github.svg" alt="GitHub: FGcodework" width="33.3%"></a><a href="https://ko-fi.com/FGcodework"><img src="assets/contact-kofi.svg" alt="Support: Ko-fi FGcodework" width="33.3%"></a></p>
 
 <p align="center"><sub>Everything here is voluntary and free — if an extension saved you time, a coffee on Ko-fi is always appreciated.</sub></p>
+
+<p align="center"><img src="https://komarev.com/ghpvc/?username=FGcodework&style=flat-square&label=profile+views&color=ff7a4d&labelColor=0d172b" alt="Profile views"></p>
