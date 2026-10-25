@@ -4,7 +4,7 @@
 
 <h3 align="center">Featured extensions</h3>
 
-<p align="center"><a href="https://github.com/FGcodework/com_fgextensionmanager"><img src="assets/card-extension-manager.svg" alt="FG Extension Manager" width="33.3%"></a><a href="https://github.com/FGcodework/fgsystemreport"><img src="assets/card-system-report.svg" alt="FG System Report" width="33.3%"></a><a href="https://github.com/FGcodework/plg_system_fgfaviconmanager"><img src="assets/card-favicon-manager.svg" alt="FG Favicon Manager" width="33.3%"></a></p>
+<p align="center"><a href="https://github.com/FGcodework/plg_content_fgautolightbox"><img src="assets/card-autolightbox.svg" alt="FG AutoLightbox" width="33.3%"></a><a href="https://github.com/FGcodework/plg_system_fgresponsivetables"><img src="assets/card-responsive-tables.svg" alt="FG Responsive Tables" width="33.3%"></a><a href="https://github.com/FGcodework/pkg_fgloginasuser"><img src="assets/card-login-as-user.svg" alt="FG Login as User" width="33.3%"></a></p>
 
 <p align="center"><img src="assets/stack.svg" alt="Stack: Joomla, PHP, JavaScript, MS SQL Server, T-SQL, MySQL, Python, Git, GitHub, Windows administration" width="100%"></p>
 
