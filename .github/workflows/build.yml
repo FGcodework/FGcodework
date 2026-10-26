@@ -1,0 +1,73 @@
+name: Build profile
+
+on:
+  workflow_dispatch:
+
+  push:
+    paths:
+      - "profile.json"
+      - "generator/**"
+      - "assets/src/**"
+      - ".github/workflows/build.yml"
+
+  # Weekly refresh, so changed extension logos are picked up without touching profile.json.
+  schedule:
+    - cron: "17 4 * * 1"
+
+concurrency:
+  group: fg-profile-build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: generator/requirements.txt
+
+      - name: Install Python dependencies
+        run: python -m pip install -r generator/requirements.txt
+
+      # Fails the run on invalid JSON, a missing logo or text that would overflow,
+      # before anything is written or committed.
+      - name: Check profile.json
+        run: python generator/build.py check
+
+      - name: Build README and assets
+        run: python generator/build.py
+
+      - name: Stage generated files
+        shell: bash
+        run: |
+          git add -f README.md assets/
+          echo "=== Staged changes ==="
+          git diff --cached --name-status
+
+      - name: Commit generated files
+        shell: bash
+        run: |
+          if git diff --cached --quiet; then
+            echo "No profile changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "Regenerate profile README and assets"
+
+          # Someone may have pushed while this job was running.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push

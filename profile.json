@@ -1,0 +1,110 @@
+{
+  "$comment": "Source of truth for the profile README. Edit this file; GitHub Actions rebuilds README.md and assets/*.svg. Keys starting with $ are ignored.",
+  "user": "FGcodework",
+  "sections": ["hero", "about", "featured", "stack", "principle", "stats", "contacts", "footer", "views"],
+
+  "theme": {
+    "panel": "#0d172b",
+    "grad_from": "#14264a",
+    "grad_to": "#0b1426",
+    "border": "#2a4276",
+    "text": "#f2f6ff",
+    "text_soft": "#b8c7e6",
+    "text_muted": "#7f93bb",
+    "pill_text": "#dbe7ff",
+    "accent": "#4cc3ff",
+    "accent2": "#ff7a4d",
+    "accent2_text": "#ffd5c4",
+    "accent2_muted": "#a8725f"
+  },
+
+  "hero": {
+    "title": "FGcodework",
+    "tagline": "Native Joomla extensions & admin tools.",
+    "subtitle": "Built for Joomla 5 and 6 — small, fast, no bloat.",
+    "link": "https://fgcodework.github.io",
+    "logo": "assets/src/brand-tile.png",
+    "chips": [
+      { "text": "Joomla 5/6" },
+      { "text": "PHP 8" },
+      { "text": "Open source", "style": "accent2" }
+    ],
+    "side_logos": ["plg_system_fgfaviconmanager", "fgsystemreport", "com_fgextensionmanager"]
+  },
+
+  "about": {
+    "label": "ABOUT",
+    "name": "Fero — developer & IT administrator",
+    "text": "I build the Joomla tools I wish existed — then keep them small, native and maintainable.",
+    "side": [
+      { "label": "FOCUS", "value": "Joomla · PHP · SQL" },
+      { "label": "BASED IN", "value": "Slovakia" }
+    ]
+  },
+
+  "featured": {
+    "title": "Featured extensions",
+    "columns": 3,
+    "items": [
+      {
+        "repo": "plg_content_fgautolightbox",
+        "kind": "plugin",
+        "title": "AutoLightbox",
+        "alt": "FG AutoLightbox",
+        "description": "Turns every image in your articles into a lightbox gallery — editors need to do nothing extra.",
+        "badges": [{ "text": "Joomla 6" }, { "text": "Released", "style": "accent2" }]
+      },
+      {
+        "repo": "plg_system_fgresponsivetables",
+        "kind": "plugin",
+        "title": "Responsive Tables",
+        "alt": "FG Responsive Tables",
+        "description": "Turns any responsive table into a labelled, accessible card layout on small screens.",
+        "badges": [{ "text": "Joomla 4–6" }, { "text": "Released", "style": "accent2" }]
+      },
+      {
+        "repo": "pkg_fgloginasuser",
+        "kind": "package",
+        "title": "Login as User",
+        "alt": "FG Login as User",
+        "description": "Log in as another user to check what they see or reproduce a bug — frontend or backend.",
+        "badges": [{ "text": "Joomla 5/6" }, { "text": "Released", "style": "accent2" }]
+      }
+    ]
+  },
+
+  "stack": {
+    "title": "STACK",
+    "decor": true,
+    "rows": [
+      { "label": "WEB", "items": ["Joomla", "PHP", "JavaScript"] },
+      { "label": "DATA", "items": ["MS SQL Server", "T-SQL", "MySQL"] },
+      { "label": "TOOLS", "items": ["Python", "Git", "GitHub", "Windows admin"] }
+    ]
+  },
+
+  "principle": {
+    "title": "Native over bloat. Measure, don't assume.",
+    "text": "Joomla core APIs first, no extra dependencies — and every change checked against real behaviour."
+  },
+
+  "stats": {
+    "rows": [["stats", "langs"], ["streak"]],
+    "langs_count": 8,
+    "hide_rank": false,
+    "streak_height": 140
+  },
+
+  "contacts": {
+    "columns": 3,
+    "items": [
+      { "id": "web", "icon": "web", "label": "Showcase", "text": "fgcodework.github.io", "url": "https://fgcodework.github.io" },
+      { "id": "github", "icon": "github", "label": "GitHub", "text": "FGcodework", "url": "https://github.com/FGcodework" },
+      { "id": "kofi", "icon": "kofi", "style": "accent2", "label": "Support", "text": "ko-fi.com/FGcodework", "url": "https://ko-fi.com/FGcodework" }
+    ]
+  },
+
+  "footer": "Everything here is voluntary and free — if an extension saved you time, a coffee on Ko-fi is always appreciated.",
+
+  "views": { "enabled": true, "label": "profile views" }
+}
