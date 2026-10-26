@@ -29,7 +29,7 @@
       { "text": "PHP 8" },
       { "text": "Open source", "style": "accent2" }
     ],
-    "side_logos": ["pkg_fgbackendlangswitcher", "fgsystemreport", "com_fgextensionmanager"]
+    "side_logos": ["pkg_fgbackendlangswitcher", "fgsystemreport", "plg_fgeditorswitcher"]
   },
 
   "about": {
