@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://fgcodework.github.io"><img src="assets/hero.svg" alt="FGcodework — Native Joomla extensions &amp; admin tools." width="100%"></a></p>
 
-<p align="center"><img src="assets/profile.svg" alt="Fero — developer &amp; IT administrator. I build the Joomla tools I wish existed — then keep them small, native and maintainable." width="100%"></p>
+<p align="center"><img src="assets/profile.svg" alt="ferino — developer &amp; IT administrator. I build the Joomla tools I wish existed — then keep them small, native and maintainable." width="100%"></p>
 
 <h3 align="center">Featured extensions</h3>
 
