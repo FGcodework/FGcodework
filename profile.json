@@ -34,7 +34,7 @@
 
   "about": {
     "label": "ABOUT",
-    "name": "Fero — developer & IT administrator",
+    "name": "ferino — developer & IT administrator",
     "text": "I build the Joomla tools I wish existed — then keep them small, native and maintainable.",
     "side": [
       { "label": "FOCUS", "value": "Joomla · PHP · SQL" },
